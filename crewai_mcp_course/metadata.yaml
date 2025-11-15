@@ -1,0 +1,58 @@
+title: crewai-mcp-course
+author: kritsanan1
+language: python
+tags:
+  - crewai
+  - mcp
+  - fastmcp
+  - ai-agents
+  - multi-agent
+  - tutorial
+license: MIT
+description: "A comprehensive course teaching beginners how to integrate CrewAI with FastMCP servers through step-by-step programming examples"
+frameworks:
+  - crewai
+  - fastmcp
+  - langchain
+difficulty: beginner
+runtime: "< 10 minutes per lesson"
+entrypoint: lesson1_setup.py
+requirements: requirements.txt
+lessons:
+  - lesson1_setup.py
+  - lesson2_mcp_integration.py
+  - lesson3_advanced_patterns.py
+learning_objectives:
+  - Understand CrewAI fundamentals
+  - Integrate MCP servers with CrewAI
+  - Build multi-agent workflows
+  - Implement data sharing between agents
+  - Handle errors and exceptions
+prerequisites:
+  - Python 3.8+
+  - Basic Python programming knowledge
+  - Understanding of AI concepts
+environment_variables:
+  - OPENAI_API_KEY
+  - FASTMCP_URL
+  - FASTMCP_API_KEY
+examples:
+  - Basic agent setup and task execution
+  - MCP server integration with custom tools
+  - Multi-agent workflows with data sharing
+  - Hierarchical and sequential process patterns
+best_practices:
+  - Error handling and logging
+  - Environment variable management
+  - Code documentation and comments
+  - Testing and validation
+  - Security considerations
+related_projects:
+  - crewai-examples
+  - fastmcp-examples
+  - langchain-crewai-integration
+support:
+  - GitHub Issues
+  - Documentation in README.md
+  - Code comments and docstrings
+  - Example configurations
